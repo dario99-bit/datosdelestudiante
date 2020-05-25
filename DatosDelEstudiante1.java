@@ -19,6 +19,10 @@ public class DatosDelEstudiante1 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner objeto=new Scanner(System.in);//new, reserva espacio de memoria
+        
+        System.out.println("Ingrese su dirección:");
+        String suDirección=objeto.nextLine();
+        
         System.out.println("Ingrese el nombre de la Universidad:");
         String nombreUniversidad=objeto.nextLine();
         
@@ -64,5 +68,6 @@ public class DatosDelEstudiante1 {
     }
     
 }
+
 
 
